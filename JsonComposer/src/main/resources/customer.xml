@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+   <name>Jane Doe</name>
+   <address>
+      <city>My Town</city>
+      <street>123 Any Street</street>
+    </address>
+    <phoneNumber type="work">
+        <value>613-555-1111</value>
+    </phoneNumber>
+    <phoneNumber type="cell">
+        <value>613-555-2222</value>
+    </phoneNumber>
+</customer>

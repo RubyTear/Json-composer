@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+	<bean id="jaxbMarshaller"
+		class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="lazyInit" value="true" />
+		<property name="contextPath"
+			value="jp.co.xruyee.jsoncomposer.xml.composer" />
+	</bean>
+<!-- 
+	<bean id="xmlHelper"
+		class="jp.co.xruyee.jsoncomposer.xml.composer.XMLHelper">
+		<property name="schemaFile">
+			<value>classpath:customer.xsd</value>
+		</property>
+		<property name="marshaller" ref="jaxbMarshaller" />
+	</bean>
+ -->
+
+</beans>
